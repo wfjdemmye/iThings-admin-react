@@ -69,6 +69,38 @@ export default [
         ],
       },
       {
+        path: '/videoMangers',
+        name: '视频服务',
+        icon: 'icon_data_01',
+        routes: [
+          {
+            name: '服务管理',
+            path: '/videoMangers/vidsrvmgr/index',
+            component: './videoMangers/vidsrvmgr/index.tsx',
+          },
+          {
+            name: '视频广场',
+            path: '/videoMangers/plaza/index',
+            component: './videoMangers/plaza/index.tsx',
+          },
+          {
+            name: '接入管理',
+            path: '/videoMangers/vdevice/index',
+            component: './videoMangers/vdevice/index.tsx',
+          },
+          {
+            name: '视频回放',
+            path: '/videoMangers/playback/index',
+            component: './videoMangers/playback/index.tsx',
+          },
+          {
+            name: '录像计划',
+            path: '/videoMangers/recordplan/index',
+            component: './videoMangers/recordplan/index.tsx',
+          },
+        ],
+      },
+      {
         path: '/ruleEngine',
         name: '规则引擎',
         icon: 'icon_data_01',
